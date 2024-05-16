@@ -11,26 +11,25 @@
             justify-content: space-around;
             display: flex;
         }
-        .column {
+        .columnPic {
             padding-top: 20px;
             width: 50%;
             float: left;
         }
-        .bio {
+        .columnText {
             padding-top: 80px;
             width: 50%;
             float: left;
         }
         body {
-           
+           text-align: center;
         }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <div class="navBar">
-        <a class="active" href="#home">Home</a>
-        <a  href="#bio">Bio</a>
+        <a class="active" href="#about">About</a>
         <a  href="#projects">Projects</a>
     </div>
 
@@ -38,7 +37,7 @@
    
 </head>
 <body>
-    <div class="bio">
+    <div class="columnText">
        
         <h1>Kene Anosike</h1>
         <p>Hello, I am a computer science student at the University of Cincinnati.</p>
@@ -48,11 +47,30 @@
             <img src="Goku.jpg" width="50px" height="50px">
         </div>
     </div>
-    <div class="column">
+    <div class="columnPic">
         <img src="gojoWins.jpg" alt="Nah I'd win." width="300" height="300">
     </div>
-    <div>
-        <h1>Resume</h1>
+
+    <div>      
+        <p>Ever since I was a kid I enjoyed using my mind. Whether it was building something, 
+            drawing or reading. I also had an innate inclination to technology. I enjoyed figuring 
+            it out and learning about it. Now that I am older the spirit is still there, I just try
+            to incorporate the things I naturally like to do into my career. I enjoy using side 
+            the creative side of my brain and solving/figuring out. Outside of work I enjoy lifting,
+            being outside, anime, and sports.</p>
+            
+    </div>
+    <h1>Resume <img src="Goku.jpg" width="50px" height="50px"> </h1>
+    <h1>Projects</h1>
+    <div class="columnText">
+        
+        <p>Presonal Project</p>
+        <h2>Portfolio Website</h2>
+        <p>My first project</p>
+
+    </div>
+    <div class="columnPic">
+        <img src="gojoWins.jpg" alt="Nah I'd win." width="300" height="300">
     </div>
 </body>
 </html>
