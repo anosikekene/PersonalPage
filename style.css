@@ -1,0 +1,49 @@
+
+html, body {
+    height: 100%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+body {
+    align-items: center;
+    justify-content: center;
+    
+}
+.navBar {
+    background-color: grey;
+    height: 25px;
+    text-align: center;
+    padding: 25px;
+    justify-content: space-around;
+    display: flex;
+}
+.links {
+    text-align: center;
+}
+.row {
+    display: table;  
+    text-align: center;
+    width: 100%;
+}
+.columnPic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    float: right;
+    text-align: center;
+
+}
+.columnText {
+    padding-top: 80px;
+    width: 50%;
+    float: left;
+}
+.resume {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
