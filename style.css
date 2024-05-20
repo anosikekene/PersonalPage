@@ -1,8 +1,8 @@
 
 html, body {
     height: 100%;
-    margin-left: 6px;
-    margin-right: 6px;
+    width: 100%;
+    margin: 0%;
 }
 body {
     align-items: center;
@@ -10,12 +10,17 @@ body {
     
 }
 .navBar {
-    background-color: grey;
+    background-color: #2E3944;
+    color: #748D92;
     height: 25px;
     text-align: center;
     padding: 25px;
     justify-content: space-around;
     display: flex;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #748D92;
 }
 .links {
     text-align: center;
@@ -24,9 +29,19 @@ body {
     display: table;  
     text-align: center;
     width: 100%;
+    background-color: #212A31;
+    color: #D3D9D4;
+}
+.row1 {
+    display: table;  
+    text-align: center;
+    width: 100%;
+    background-color: #212A31;
+    color: #D3D9D4;
+    padding-bottom: 20px;
 }
 .columnPic {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     width: 50%;
     float: right;
@@ -38,8 +53,25 @@ body {
     width: 50%;
     float: left;
 }
+.aboutPics {
+    padding-right: 20px;
+    width: 60px;
+    height: 60px;
+}
 .resume {
     text-align: center;
+}
+.langButton {
+   background-color: #748D92;
+    color: #212A31;
+    border: none;
+    padding: 8px 16px;
+}
+.projButton {
+    background-color: #748D92;
+    color: #212A31;
+    border: none;
+    padding: 8px 16px;
 }
 p {
     text-align: center;
