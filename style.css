@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family:HelveticaNow;
+    src: url(helveticanowtext-black-demo.ttf);
+}
 html, body {
     height: 100%;
     width: 100%;
@@ -6,8 +9,9 @@ html, body {
 }
 body {
     align-items: center;
+    text-align: center;
     justify-content: center;
-    
+    font-family: "HelveticaNow";
 }
 .navBar {
     background-color: #2E3944;
@@ -31,14 +35,18 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
     background-color: #212A31;
     color: #D3D9D4;
+    padding-bottom: 20px;
+
+    
 }
 .row1 {
     display: table;  
     text-align: center;
-    width: 100%;
     background-color: #212A31;
     color: #D3D9D4;
     padding-bottom: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .columnPic {
     padding-top: 40px;
@@ -48,10 +56,16 @@ a:link, a:visited, a:hover, a:active {
     text-align: center;
 
 }
+img {
+    vertical-align: middle;
+}
 .columnText {
     padding-top: 80px;
     width: 50%;
     float: left;
+}
+.fa {
+    width: 60px;
 }
 .aboutPics {
     padding-right: 20px;
@@ -66,12 +80,16 @@ a:link, a:visited, a:hover, a:active {
     color: #212A31;
     border: none;
     padding: 8px 16px;
+    border-radius: 2px;
+    font-family: "HelveticaNow";
 }
 .projButton {
     background-color: #748D92;
     color: #212A31;
     border: none;
     padding: 8px 16px;
+    border-radius: 2px;
+    font-family: "HelveticaNow";
 }
 p {
     text-align: center;
