@@ -16,9 +16,9 @@ body {
 .navBar {
     background-color: #2E3944;
     color: #748D92;
-    height: 25px;
+    height: 2%;
     text-align: center;
-    padding: 25px;
+    padding: 2%;
     justify-content: space-around;
     display: flex;
 }
@@ -26,51 +26,63 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: #748D92;
 }
+.wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .links {
     text-align: center;
 }
 .row {
     display: table;  
     text-align: center;
-    width: 100%;
+    flex-basis: 100%;
     background-color: #212A31;
     color: #D3D9D4;
-    padding-bottom: 20px;
-
+    padding-bottom: 5%;
+    width: 100%;
+    
     
 }
 .row1 {
-    display: table;  
+    display: flex;  
+    width: 100%;
     text-align: center;
     background-color: #212A31;
     color: #D3D9D4;
-    padding-bottom: 20px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .columnPic {
-    padding-top: 40px;
-    padding-bottom: 20px;
     width: 50%;
-    float: right;
     text-align: center;
-
+    vertical-align: middle;
+   
+    float:right
 }
 img {
     vertical-align: middle;
+    padding: 10%;
 }
 .columnText {
-    padding-top: 80px;
     width: 50%;
-    float: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+    text-align: center;
+    vertical-align: middle;
+    float:left
 }
 .fa {
-    width: 60px;
+    flex-basis: 15%;
+    padding: 3%;
 }
 .aboutPics {
-    padding-right: 20px;
-    width: 60px;
-    height: 60px;
+    width: 120%;
+    height: 120%;
 }
 .resume {
     text-align: center;
@@ -79,21 +91,30 @@ img {
    background-color: #748D92;
     color: #212A31;
     border: none;
-    padding: 8px 16px;
-    border-radius: 2px;
+    padding: 2% 4%;
+    border-radius: 4%;
     font-family: "HelveticaNow";
 }
 .projButton {
     background-color: #748D92;
     color: #212A31;
     border: none;
-    padding: 8px 16px;
-    border-radius: 2px;
+    padding: 2% 4%;
+    border-radius: 4%;
     font-family: "HelveticaNow";
 }
 p {
     text-align: center;
+    vertical-align: middle;
+    padding-bottom: 5%;
 }
-h1 {
+h1,h2 {
     text-align: center;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    .columnPic,.columnText  {
+        width:100%
+    }
 }
