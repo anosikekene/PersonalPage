@@ -79,6 +79,9 @@ img {
     flex-basis: 15%;
     padding: 3%;
 }
+.fa:hover {
+    color: #b7dbe2;
+}
 .aboutPics {
     width: 120%;
     height: 120%;
@@ -94,6 +97,7 @@ img {
     border-radius: 4%;
     font-family: "HelveticaNow";
 }
+
 .projButton {
     background-color: #748D92;
     color: #212A31;
@@ -101,6 +105,15 @@ img {
     padding: 2% 4%;
     border-radius: 4%;
     font-family: "HelveticaNow";
+}
+.projButton:hover {
+    background-color: #b7dbe2;
+    color: #212A31;
+    border: none;
+    padding: 2% 4%;
+    border-radius: 4%;
+    font-family: "HelveticaNow";
+    cursor: pointer;
 }
 p {
     text-align: center;
